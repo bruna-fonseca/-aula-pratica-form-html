@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+    <fieldset>
+      <p>Dados pessoais</p>
+      <label for="name">
+        Nome
+        <input type="text" name="name" id="name">
+      </label>
+      <label for="age">
+        Idade
+        <input type="text" name="age" id="age">
+      </label>
+      <p>Dados profissionais</p>
+      <label for="schooling">
+        Escolaridade:
+        <select id="schooling" name="schooling">
+          <option value="fundamental">Ensino fundamental</option>
+          <option value="medio">Ensino médio</option>
+          <option value="superior">Ensino superior</option>
+        </select>
+      </label>
+      <br><br>
+        <span>Área de atuação</span>
+        <input type="radio" name="occupation" id="management">
+        <label for="management">Gerência</label>
+        <input type="radio" name="occupation" id="financial">
+        <label for="financial">Financeiro</label>
+        <input type="radio" name="occupation" id="front-desk">
+        <label for="front-desk">Recepção</label>
+    </fieldset>
+  </form>
+</body>
+</html>
