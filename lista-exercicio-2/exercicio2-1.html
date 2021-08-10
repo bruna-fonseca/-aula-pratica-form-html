@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulário</h1>
+  <form action="">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <label for="name">
+        Nome:
+        <input type="text" name="name" id="name">
+      </label>
+      <br><br>
+      <label for="address">
+        Endereço:
+        <input type="text" name="address" id="address">
+      </label>
+      <br><br>
+      <label for="city">
+        Cidade:
+        <input type="text" name="city" id="city">
+      </label>
+      <br><br>
+      <label for="state">
+        Estado
+        <select name="state" id="state">
+          <option value="sp">São Paulo</option>
+          <option value="rj">Rio de Janeiro</option>
+          <option value="pe">Pernambuco</option>
+          <option value="ba">Bahia</option>
+          <option value="ma">Manaus</option>
+          <option value="ac">Acre</option>
+        </select>
+      </label>
+    </fieldset>
+    
+    <br>
+
+    <fieldset>
+      <legend>Dados Profissionais</legend>
+      
+      <p>Natureza do Cargo</p>
+      <input type="radio" name="occupation" id="management">
+        <label for="management">Gerência</label>
+        <input type="radio" name="occupation" id="financial">
+        <label for="financial">Financeiro</label>
+        <input type="radio" name="occupation" id="front-desk">
+        <label for="front-desk">Recepção</label>
+        <input type="radio" name="occupation" id="administrative">
+        <label for="administrative">Administrativo</label>
+        <input type="radio" name="occupation" id="juridical">
+        <label for="juridical">Jurídico</label>
+        
+        <p>Área de interesse</p>
+        <input type="checkbox" name="computing" id="computing">
+        <label for="computing">Computação</label>
+        <input type="checkbox" name="biology" id="biology">
+        <label for="biology">Biologia</label>
+        <input type="checkbox" name="environment" id="environment">
+        <label for="environment">Meio-ambiente</label>
+        <input type="checkbox" name="engineering" id="engineering">
+        <label for="engineering">Engenharia</label>
+        <input type="checkbox" name="history" id="history">
+        <label for="history">História</label>
+        <br><br>
+        <span>Mini-currículo:</span>
+        <textarea name="" id="" cols="50" rows="10"></textarea>
+    </fieldset>
+    <br><br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+  </form>
+</body>
+</html>
